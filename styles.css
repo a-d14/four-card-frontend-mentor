@@ -159,7 +159,20 @@ header p {
     display: flex;
     flex-direction: column;
 
+    position: relative;
+
     border-radius: 8px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .card h2 {
@@ -177,20 +190,20 @@ header p {
     align-self: flex-end;
 }
 
-.card-supervisor {
-    border-top: 4px solid var(--supervisor-top-color);
+.card-supervisor::before {
+    background-color: var(--supervisor-top-color);
 }
 
-.card-team {
-    border-top: 4px solid var(--team-builder-top-color);
+.card-team::before {
+    background-color: var(--team-builder-top-color);
 }
 
-.card-karma {
-    border-top: 4px solid var(--karma-top-color);
+.card-karma::before {
+    background-color: var(--karma-top-color);
 }
 
-.card-calc {
-    border-top: 4px solid var(--calculator-top-color);
+.card-calc::before {
+    background-color: var(--calculator-top-color);
 }
 
 footer {
