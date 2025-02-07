@@ -163,7 +163,7 @@ header p {
 
 .card h2 {
     margin-bottom: 1px;
-    font: 600 1.5rem/1.5 'Poppins', sans-serif;
+    font: 600 1.25rem/1.5 'Poppins', sans-serif;
 }
 
 .card p {
@@ -218,6 +218,11 @@ footer {
 
     .card {
         padding: 2rem;
+    }
+
+    .card p {
+        margin-bottom: 2.5rem;
+        margin-top: 6px;
     }
 
     .card-supervisor {
