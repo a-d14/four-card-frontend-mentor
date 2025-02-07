@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-<p align="center">
+<!-- <p align="center">
   <img src="./desktop.png" alt="Image 1" width="30%">
   <img src="./tablet.png" alt="Image 2" width="30%">
   <img src="./mobile.png" alt="Image 3" width="30%">
@@ -36,6 +36,21 @@ Users should be able to:
   <span style="display: inline-block; width: 30%;">Desktop View</span>
   <span style="display: inline-block; width: 30%;">Tablet View</span>
   <span style="display: inline-block; width: 30%;">Mobile View</span>
+</p> -->
+
+<p align="center">
+  <figure style="display: inline-block; text-align: center; margin: 10px;">
+    <img src="./desktop.png" alt="Desktop View" width="250">
+    <figcaption>Desktop View</figcaption>
+  </figure>
+  <figure style="display: inline-block; text-align: center; margin: 10px;">
+    <img src="./tablet.png" alt="Tablet View" width="250">
+    <figcaption>Tablet View</figcaption>
+  </figure>
+  <figure style="display: inline-block; text-align: center; margin: 10px;">
+    <img src="./mobile.png" alt="Mobile View" width="250">
+    <figcaption>Mobile View</figcaption>
+  </figure>
 </p>
 
 ### Links
