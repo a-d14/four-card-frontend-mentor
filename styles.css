@@ -150,6 +150,7 @@ header p {
 .card {
     text-align: left;
     max-width: var(--card-width);
+    height: 250px;
     background-color: var(--card-background-color);
     box-shadow: var(--card-shadow);
 
